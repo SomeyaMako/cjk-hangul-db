@@ -3,7 +3,7 @@
 A repository for CJK characters' hangul pronunciation.
 
 ### Usage
-Run the script ```h2h.py``` by typing the following command in the terminal:
+Run ```h2h.py``` in the terminal:
 ```
 python h2h.py
 ```
