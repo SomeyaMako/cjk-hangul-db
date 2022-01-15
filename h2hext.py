@@ -572,7 +572,7 @@ fetchstr=str(input())
 charhandled=0
 for fetch in fetchstr:
 	rep=""
-	if u'\uac00'<=fetch<=u'\ud7af':
+	if u'\uAC00'<=fetch<=u'\uD7A3':
 		found=0
 		for key in KHDict:
 			if key==fetch:
@@ -598,4 +598,4 @@ for fetch in fetchstr:
 		else:
 			print("未找到漢字「"+fetch+"」的讀音")
 if charhandled==0:
-	print("輸入有誤：請輸入基本區/擴A/兼容區漢字/諺文")
+	print("輸入有誤：請輸入基本區/擴A/兼容區漢字或者諺文")

@@ -525,7 +525,7 @@ fetchstr=str(input())
 charhandled=0
 for fetch in fetchstr:
 	rep=""
-	if u'\uac00'<=fetch<=u'\ud7af':
+	if u'\uAC00'<=fetch<=u'\uD7A3':
 		found=0
 		for key in KHDict:
 			if key==fetch:
@@ -537,7 +537,7 @@ for fetch in fetchstr:
 			charhandled+=1
 		else:
 			print("未找到讀音爲「"+fetch+"」的漢字")
-	elif (u'\u4E00'<=fetch<=u'\u9FFF')or(u'\uF900'<=fetch<=u'\uFAFF'):
+	elif (u'\u4E00'<=fetch<=u'\u9FA5')or(u'\uF900'<=fetch<=u'\uFAFF'):
 		found=0
 		for key in KHDict:
 			if KHDict[key].count(fetch)!=0:
