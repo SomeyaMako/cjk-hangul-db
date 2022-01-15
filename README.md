@@ -38,7 +38,7 @@ $> python h2h.py
 讀音爲「한」的漢字：佷僩厂嫺嫻寒恨悍扞捍旱暵桿汗漢澣瀚罕翰邗邯閈閑閒限韓駻鷳鼾
 $> _
 ```
-```h2hext.py```provides a (nearly) full support for CJK/CJK Comp./CJK Ext.A. The basic one ```h2h.py```) cannot handle Simplified Chinese
+```h2hext.py```provides a (nearly) full support for CJK/CJK Comp./CJK Ext.A. The basic one (```h2h.py```) cannot handle Simplified Chinese
 ```
 $> python h2h.py
 简体字读音检索
